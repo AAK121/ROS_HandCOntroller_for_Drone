@@ -39,3 +39,8 @@ class Gesture_Controller:
         else:
             rospy.loginfo("Invalid gesture_id")
 
+if __name__ == "__main__":
+    controller = Gesture_Controller()
+    while(True):   
+        gesture_id = int(input("Enter the id:" ))
+        controller.Controls(gesture_id)

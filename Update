@@ -1,0 +1,3 @@
+write a new acript for ROS Controller 
+this time go step by step from takeoff arming landing and then move to moving it.
+include drone state also, check through that rather than arm == true or landing ==flase

@@ -1,5 +1,5 @@
 run 
 roslaunch iq_sim runway.launch 
-./startsitl.h
+./startsitl.sh
 roslaunch iq_sim apm.launch
 rosrun {script}

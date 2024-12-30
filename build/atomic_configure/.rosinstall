@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/alok/catkin_ws/src/hand_controller/build/devel/setup.sh
